@@ -45,7 +45,7 @@
         <argument
             android:name="subject"
             app:argType="string"
-            android:defaultValue="선택 없음" />
+            android:defaultValue="No selection" />
 
     </fragment>
 

@@ -15,7 +15,7 @@ class HomeFragment : Fragment() {
     private val binding: FragmentHomeBinding
         get() = _binding!!
 
-    override fun onCreateView(  // 최초에 화면이 만들어질 때
+    override fun onCreateView(  // When the view is created for the first time
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -31,13 +31,13 @@ class HomeFragment : Fragment() {
         return binding.root
     }
 
-    override fun onViewCreated(   // 화면이 이미 만들어진 다음 실행됨
+    override fun onViewCreated(   // Executed after the view has been created
         view: View,
         savedInstanceState: Bundle?
     ) {
         super.onViewCreated(view, savedInstanceState)
 
-        // 나중에 버튼 이벤트 작성
+        // Implement button events later
         binding.btnMoveMenu.setOnClickListener {
             findNavController().navigate(
                 R.id.action_homeFragment_to_menuFragment

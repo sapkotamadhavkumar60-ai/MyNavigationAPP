@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Navigation 실습 앱입니다."
+        android:text="This is a Navigation practice app."
         android:textSize="18sp"
         android:layout_marginTop="20dp" />
 
@@ -26,7 +26,7 @@
         android:id="@+id/btnMoveMenu"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="메뉴 보기"
+        android:text="View Menu"
         android:layout_marginTop="30dp" />
 
 </LinearLayout>

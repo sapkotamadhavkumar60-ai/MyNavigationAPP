@@ -19,7 +19,7 @@
         android:id="@+id/txtResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="선택한 항목"
+        android:text="Selected item"
         android:textSize="22sp"
         android:layout_marginTop="30dp" />
 
@@ -27,7 +27,7 @@
         android:id="@+id/btnBack"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="이전 화면"
+        android:text="Previous screen"
         android:layout_marginTop="30dp" />
 
 </LinearLayout>

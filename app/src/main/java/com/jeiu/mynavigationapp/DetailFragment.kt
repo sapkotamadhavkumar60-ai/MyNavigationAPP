@@ -36,10 +36,10 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val subject  =  arguments?.getString("subject") ?: "선택없음"
-        binding.txtResult.text = "선택한 항목: $subject"
+        val subject  =  arguments?.getString("subject") ?: "No selection"
+        binding.txtResult.text = "Selected item: $subject"
         binding.btnBack.setOnClickListener {
-            findNavController().popBackStack()  //아전화면
+            findNavController().popBackStack()  // Previous screen
         }
     }
 
